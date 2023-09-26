@@ -1,0 +1,79 @@
+:root {
+  /* 标题 */
+  --title-color: rgba(0, 0, 0, 0.85);
+  /* 正文 */
+  --text-color: rgba(0, 0, 0, 0.65);
+  /* 次要文字 */
+  --sub-text-color: rgba(0, 0, 0, 0.45);
+  /* 不可点文字 */
+  --disable-text-color: rgba(0, 0, 0, 0.25);
+  /* 线的颜色 */
+  --line-color: rgba(0, 0, 0, 0.1);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  overflow: hidden;
+}
+body {
+  color: rgb(var(--foreground-rgb));
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+#root-r3f {
+  width: 100%;
+  height: 100%;
+}
+
+.main-TIEcrk {
+  height: 100%;
+  width: 100%;
+}
+
+.list-y79Jbc {
+  overflow-y: auto;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2.5% 0;
+}
+.list-y79Jbc .item-lXiL3N {
+  width: 40%;
+  height: 0;
+  margin: 2.5%;
+  padding-bottom: calc(9/32*100%);
+  position: relative;
+}
+.list-y79Jbc .item-lXiL3N .view-YYMlXr {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid #bfbfbf;
+  border-radius: 4px;
+}
+.list-y79Jbc.solo-t3_cdI {
+  padding: 0;
+}
+.list-y79Jbc.solo-t3_cdI .item-lXiL3N {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+.list-y79Jbc.solo-t3_cdI .view-YYMlXr {
+  border: none;
+  border-radius: 0;
+}
+
